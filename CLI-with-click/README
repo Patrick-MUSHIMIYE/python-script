@@ -1,0 +1,38 @@
+README File for Click package
+
+**CLI With Click in python**
+
+
+
+***INSTALLATION***
+
+Requirements:
+ - click
+ - colorama
+ - datetime
+  
+to install: pip install -r requirements.txt
+or run the below to install 1 by 1
+  - pip install click 
+  - pip install colorama
+  - pip install datetime
+  
+commands:
+ - person         #  This command greets you and checks if you are an adult based on your age.
+ - hundred_years  #  This command calculates the year in which you will turn 100 years old.
+ - fav_food       #  This command allows you to select your favorite food from a predefined list.
+   
+***USAGE***
+python <filename><command>
+ - python main.py person
+ - python main.py hundred-years
+  
+python <filename><command>[options]
+ -python main.py fav-food --favorite Croissant
+
+**CAUTION:**
+ you can use --help for more information about the commands
+ 
+ for example:
+  python main.py --help or 
+  python .\main.py fav-food --help
